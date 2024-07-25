@@ -14,3 +14,6 @@ python ./Generator/generate.py -i ./Template.pretty/MX-Alps-Hybrid-Template.kica
 # Gateron KS33 Low Profile
 python ./Generator/generate.py -i ./Template.pretty/Gateron-KS33-Hotswap-Template.kicad_mod -o ./Gateron_KS33_Hotswap.pretty -t gateron_ks33 -n Gateron-KS33-Hotswap
 python ./Generator/generate.py -i ./Template.pretty/Gateron-KS33-Solderable-Template.kicad_mod -o ./Gateron_KS33_Solderable.pretty -t gateron_ks33 -n Gateron-KS33-Solderable
+
+# MX-Optional-Reversible
+python ./Generator/generate.py -i ./Template.pretty/MX-Optional-Reversible-Template.kicad_mod -o ./MX_Optional_Reversible.pretty -t mx -n MX-Optional-Reversible
